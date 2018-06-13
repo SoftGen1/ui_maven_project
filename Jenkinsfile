@@ -4,7 +4,7 @@ pipeline {
         stage('Code Checkout') { 
             steps {
                 // Provide git url to checkout using pipeline syntax.
-              git credentialsId: 'Github', url: 'https://github.com/github/ui_maven_pproject.git'
+              git credentialsId: 'Github', url: 'https://github.com/SoftGen1/ui_maven_pproject.git'
             }
         }
         stage('Build') { 
